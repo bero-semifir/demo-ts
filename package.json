@@ -1,0 +1,16 @@
+{
+  "name": "demo-ts",
+  "version": "1.0.0",
+  "description": "Typescript est une surcouche à JS créée par Microsoft. C'est à dire une extension du langage.",
+  "main": "index.js",
+  "scripts": {
+    "start":"tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
