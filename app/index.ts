@@ -30,5 +30,16 @@ function direBonjour(): string {
 function ecrireMessage(message: string): void{
     console.log(message);
 }
+let key = 2;
 
-// ecrireMessage("Bonjour");
+switch (key) {
+    case 2:
+        console.log("Key =", 2)
+    case 3:
+        console.log("Key =", 3)
+        break;
+    default:
+        break;
+}
+
+ecrireMessage("Coucou");

@@ -51,6 +51,6 @@ Pour transpiller tout le projet en prennant en compte le tsconfig.json: `tsc` su
 ## Lancer un projet en TS
 
 1) Builder le projet (transpiler) avec tsc
-2) Lancer le résultat du build: ici node ./app/index.js
+2) Lancer le résultat du build: ici node ./dist/index.js
 
 Vous pouvez aussi ajouter le script `start`
